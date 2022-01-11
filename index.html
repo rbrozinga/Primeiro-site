@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>Meu site</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<script type="text/javascript">
+		nome = prompt("Digite seu nome: ");
+	</script>
+</head>
+
+<header>
+	<div id="navegacao">
+		<nav><a href="index.html"> INICIO</a>
+		 <a href="#CONTATOS"> CONTATOS </a> 
+		 <a href="#autor"> AUTOR</a></nav>
+	</div>
+	
+	<img src="img/topo.png">
+	
+</header>
+
+<body>
+	<div class="conteudo">
+	<h1>TREINAMENTO HTML E CSS3 </h1>
+	<hr>
+	<br>
+
+	<div id="java">
+		<script type="text/javascript">
+			document.write("Olá " +nome+ ", seja bem vindo(a) em nosso site!")
+		</script>
+	</div>
+
+	<br>
+	<br>
+	<br>
+	<div class="video">
+		<iframe width="853" height="480" src="https://www.youtube.com/embed/pj4x16--1jk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</div>
+
+	<figure>
+		<a href="https://goo.gl/SQ1BFD"> <img src="img/logica.png" alt="logica"> </a>
+			<a href="https://store.steampowered.com/?l=portuguese">	<img src="img/game.jpg" alt="igames"></a>
+		<a href="https://goo.gl/fjHna8"> <img src="img/office.png" alt="office"> </a>
+	</figure>
+
+	<h2>SITE APENAS PARA TESTE</h2>
+
+		<section>
+			<p>
+		Site em andamento apenas para colacar em pratica tudo vistos em curso.
+		</p>
+		
+		</section>
+	
+	</div>
+
+		<a name="autor"></a>
+		<figure id="autor">
+			<img class="img-geral" src="img/richard.jpg" alt="Richard Brozinga">
+			<figcaption>
+				<h3>Richard Souza Brozinga - Estudante de Analista de sistemas</h3>
+				<p id="autor">Sou apaixonado pela área de Tecnologia e também apaixonado por games e futebol.<br> 
+
+
+					
+
+					
+				</p>
+			</figcaption>
+
+		</figure>
+	<br>
+		 
+		<a name="CONTATOS"></a>
+		 <form method="post" id="mesafem-site" action="milto:richardbrozz@outlook.com">
+		 	<fieldset>
+		 		<legend> Envie Sua Mensagem </legend>
+
+		 		<label for="cnome"> NOME </label><br>
+		 		<input type="text" name="nome" id="cnome" placeholder="DIGITE SE NOME COMPLETO"><br><br>
+
+		 		<label for="email"> EMAIL </label><br>
+		 		<input type="text" name="EMAIL" id="email" placeholder="DIGITE SEU EMAIL"><br><br>
+
+		 		<label for="msg"> MENSAGEM </label><br>
+		 		<textarea name="Mensagem" id="msg" placeholder="DIGITE SUA MENSAGEM" cols="50" rows="5"></textarea><br><br>
+
+		 		<input type="submit" name="botao" value="ENVIAR">
+
+
+
+		 	</fieldset>
+		 	
+
+		 </form>
+
+
+	<br>	
+</body>
+<a name="rodape"></a>
+<footer>
+	<div id="rodape">
+		
+		<h2>Tudo sobre informatica</h2><br>
+		Curso de HTML5 e CSS3<br>
+		Email: richardbrozz@outlook.com | Tel:(11)98475-2021
+
+	</div><br>
+
+	<div id="redes-sociais">
+		
+		<a href="https://www.instagram.com/richardbrozinga/"><img src="img/insta.png"></a> 
+		<a href="https://www.facebook.com/richardbrozinga"><img src="img/facebook.png"> </a> 
+		<a href="https://twitter.com/home?lang=pt"><img src="img/twitter.png"> </a>
+	
+	</div>
+
+</footer>
+</html>

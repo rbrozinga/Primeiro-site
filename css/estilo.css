@@ -1,0 +1,98 @@
+header{
+		background-color: #191970;
+		width: 100%;
+		height: 250px;  
+		text-align: center;
+	}
+
+	#navegacao{
+		background-color: #ffffff;
+		text-align: center;
+		font-family: arial;
+	}
+
+	h1{
+		text-align: center;
+		font-family: arial;
+		padding: 40px
+	}
+	
+	p{
+		text-align: justify;
+		font-size: 16px;
+		font-family: arial;
+
+	}
+	.conteudo{ padding: 20px;
+
+	}
+
+	footer{
+		background-color: #191970; 
+		width: 100%;
+		height: 300px;
+	}	
+
+	#rodape{
+		text-align: center;
+		color: #ffffff;
+		font-size: 20px;
+		font-family: arial;
+	}
+
+	figure{
+		text-align: center;
+
+	}
+
+	#autor{
+		text-align: center;
+
+	}
+
+	.img-geral{
+		border-radius: 100%
+	}
+
+	h2{
+		text-align: center;
+		font-family: arial;
+	}
+
+	a:hover{
+		background-color:#ffffff;
+		
+	}
+
+	.video{
+		text-align: center;
+		width: 100%
+		height:320px;
+	}
+
+	form {
+		text-align: center;
+		font-family: arial;
+		font-size:20px;
+	}
+
+	#redes-sociais{
+		background-color: #ffffff;
+		text-align: center;
+		padding:5px;
+	}
+
+	textarea{
+		text-align: center;
+		font-family: arial;
+
+		
+}
+
+#java{
+	text-align: center;
+	font-family: arial black;
+	color:#191970;
+
+
+}
